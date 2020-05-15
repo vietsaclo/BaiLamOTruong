@@ -21,6 +21,7 @@ namespace _2001170234_NguyenQuocViet_Buoi2
         {
             loadDataGridView();
         }
+
         private void loadDataGridView()
         {
             gridView.Rows.Add(new string[] { "1", "Nguyen Quoc Viet"});
@@ -29,6 +30,7 @@ namespace _2001170234_NguyenQuocViet_Buoi2
             gridView.Rows.Add(new string[] { "4", "Huynh Ngoc Khanh" });
             gridView.Rows.Add(new string[] { "5", "Tran Bao Long" });
             gridView.Rows.Add(new string[] { "6", "Le An Huy" });
+            gridView.Rows.Add(new string[] { "6", "Bui Vu Truong" });
         }
     }
 }
